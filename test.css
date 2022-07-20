@@ -2,3 +2,38 @@
 	font-family: 'fontfile';
 	src: url(./fontfile.ttf);
 }
+
+
+.outer {
+	width: 100%
+}
+
+.inner {
+	position: relative;
+	max-width: 640px;
+	padding: 20px 10px;
+	margin: 0 auto
+}
+
+#border1 {
+	
+	border: 2px solid #3f3f3f;
+	padding: 5px 5px;
+	background-color: hotpink;
+	width: fit-content;
+	border-radius: 25px;
+	font-family: fontfile;
+	display: flexbox;
+	margin: 0 auto;
+
+
+	box-shadow: -4px -4px 2px #df00df inset;
+}
+
+#header {
+	/*      上   右   下    左  */
+	padding:50px 10px 20px 30px;
+	background:#212121;
+	background: linear-gradient(to bottom,#373737,#212121);
+	position: relative;
+}
