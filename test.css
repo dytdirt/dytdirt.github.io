@@ -12,6 +12,16 @@ div {
 	vertical-align: baseline;
 }
 
+body {
+	margin: 0;
+	background-position: center;
+	background-image: url(1.png);
+	background-repeat: no-repeat;
+	background-color: blanchedalmond;
+}
+
+;
+
 .outer {
 	width: 100%
 }
@@ -44,4 +54,8 @@ div {
 	background: -o-linear-gradient(top, #373737, #212121);
 	background: linear-gradient(to top, #373737, #212121);
 	position: relative;
+}
+
+#header .inner {
+	padding: 50px 10px 30px 10px
 }
