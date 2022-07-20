@@ -3,6 +3,15 @@
 	src: url(./fontfile.ttf);
 }
 
+html,
+body,
+div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
 
 .outer {
 	width: 100%
@@ -16,7 +25,7 @@
 }
 
 #border1 {
-	
+
 	border: 2px solid #3f3f3f;
 	padding: 5px 5px;
 	background-color: hotpink;
@@ -32,8 +41,8 @@
 
 #header {
 	/*      上   右   下    左  */
-	padding:50px 10px 20px 30px;
-	background:#212121;
-	background: linear-gradient(to bottom,#373737,#212121);
+	padding: 50px 10px 20px 30px;
+	background: #212121;
+	background: linear-gradient(to bottom, #373737, #212121);
 	position: relative;
 }
