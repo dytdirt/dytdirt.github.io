@@ -46,7 +46,6 @@ body {
 }
 
 #header {
-	font-family: fontfile;
 	padding: 50px 10px 20px 30px;
 	background: #212121;
 	background: -moz-linear-gradient(top, #373737, #212121);
