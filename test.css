@@ -9,7 +9,6 @@ div {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font: inherit;
 	vertical-align: baseline;
 }
 
@@ -34,13 +33,9 @@ div {
 	font-family: fontfile;
 	display: flexbox;
 	margin: 0 auto;
-
-
-	box-shadow: -4px -4px 2px #df00df inset;
 }
 
 #header {
-	/*      上   右   下    左  */
 	padding: 50px 10px 20px 30px;
 	background: #212121;
 	background: -moz-linear-gradient(top, #373737, #212121);
