@@ -1,41 +1,32 @@
 <html>
 
-<script src="./script.js"></script>
 
 <head>
+    <script src="./marked-master/marked.min.js"></script>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="./test.css">
     <title> test </title>
 </head>
 
 <body>
-
-
     <div id="header" class="outer">
         <header class="inner">
-
             <h1 style="color: white;margin:0 auto;font-family: fontfile;">DYT的测试页面</h1>
         </header>
     </div>
-
-    <style>
-        #back {
-            height: 100%;
-            background-position: center;
-            background-image: url(1.png);
-            background-repeat: no-repeat;
-            background-color: rgb(255, 244, 227);
-        }
-    </style>
+    <div id="content">
+    </div>
 
     <div id="back">
         <div id="border1" class="outer">
-
             <p style="text-align:center;"> abcdefghijklmnopqrstuvwxyz </p>
-            <button type="button" onclick="say_hello()"> say hello </button>
         </div>
-
     </div>
+
+    <script>
+        
+        document.getElementById('content').innerHTML = marked.parse('# hello');
+    </script>
 
 
 </body>
