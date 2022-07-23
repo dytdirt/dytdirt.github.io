@@ -1,7 +1,5 @@
-import {marked} from './marked-master/marked.min.js';
+import './marked.min.js';
 
 function prt() {
-	par = new Parser();
-	return par.parse('# hello')
-	prt
+	return parse('# hello')
 }
